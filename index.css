@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html{
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    position: absolute;
+    width: 300px;
+    padding: 20px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 4px solid darkblue;
+    /* background-color: darkgrey; */
+}
+
+.container p{
+    font-size: 12px;
+    line-height: 10px;
+    font-weight: bold;
+    background: url(/dancingboy.gif) no-repeat;
+    background-position: center;
+    background-size: contain;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+}
